@@ -7,6 +7,19 @@
   font-weight: 500;
   letter-spacing: 2px;
   word-spacing: 6px;
+  position: relative;
+}
+
+.primary-text:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 101%;
+    width: 92px;
+    background: #666666;
+    top: 0;
+    mix-blend-mode: color-dodge;
 }
 
 body {
